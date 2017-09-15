@@ -1,0 +1,6 @@
+FROM       jackhu/jenkins-deploy-nodejs:6
+MAINTAINER CfLIU <liuchao@uconnect.com>
+
+EXPOSE  8800
+
+CMD ["npm","run","pm2-start"]
